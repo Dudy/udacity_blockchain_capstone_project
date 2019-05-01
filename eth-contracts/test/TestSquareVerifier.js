@@ -10,16 +10,16 @@
 
 
 
-var Verifier = artifacts.require('Verifier');
+var SquareVerifier = artifacts.require('SquareVerifier');
 
-contract('Verifier', accounts => {
+contract('SquareVerifier', accounts => {
 
     const account_one = accounts[0];
     const account_two = accounts[1];
 
     describe('test scenario description', function () {
         beforeEach(async function () { 
-            this.contract = await Verifier.new({from: account_one});
+            this.contract = await SquareVerifier.new({from: account_one});
 
             // TODO: some more per test initialization
         })

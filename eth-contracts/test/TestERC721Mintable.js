@@ -5,7 +5,7 @@ contract('TestERC721Mintable', accounts => {
     const account_one = accounts[0];
     const account_two = accounts[1];
 
-    describe('match erc721 spec', function () {
+    describe('match erc721 spec', async function () {
         beforeEach(async function () { 
             this.contract = await ERC721MintableComplete.new({from: account_one});
 
@@ -17,7 +17,8 @@ contract('TestERC721Mintable', accounts => {
         })
 
         it('should get token balance', async function () { 
-            
+            let balance = await this.contract.balanceOf(account_one);
+            console.log(balance);
         })
 
         // token uri should be complete i.e: https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/1
