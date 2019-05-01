@@ -5,3 +5,31 @@
 
     
 // Test verification with incorrect proof
+
+
+
+
+
+var Verifier = artifacts.require('Verifier');
+
+contract('Verifier', accounts => {
+
+    const account_one = accounts[0];
+    const account_two = accounts[1];
+
+    describe('test scenario description', function () {
+        beforeEach(async function () { 
+            this.contract = await Verifier.new({from: account_one});
+
+            // TODO: some more per test initialization
+        })
+
+        it('verification with correct proof', async function () { 
+            
+        })
+
+        it('verification with incorrect proof', async function () { 
+            
+        })
+    });
+})

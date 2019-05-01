@@ -1,0 +1,29 @@
+Capstone Projekt
+
+- zwei Hauptaspekte
+    - Erzeugen der ERC721Token
+    - Kompilieren und Integerieren von ZoKrates in die ERC721Token
+- "Tokens" bilden hier Immobilien ab
+
+- ERC721Mintable.sol
+    - contract Ownable ersetzen durch die Implementierung in OpenZeppelin
+    - etliche TODOs im Contract
+    - den importierten IERC721Receiver braucht man wohl nicht für die Implementierung, das wird nur im schon vorhandenen Code vervendet
+- erzeuge "CustomERC721Token" und teste diesen Contract
+    - ... und all die anderen Contracts in dieser Datei ...
+    - in TestERC721Mintable.js gibt es ein Set von Tests, die durchlaufen müssen
+    - der ERC721MintableComplete Contract ist der "CustomERC721Token" Contract aus der Datei ERC721Mintable.sol
+    - hauptsächlich Implementierung der "mint()" Funktion
+- "Verifier.sol" (Ausgabe von ZoKrates) bezeichnet dasselbe wie "SquareVerifier.sol"
+    - "TestSquareVerifier.js" ist also die Testklasse dazu
+        - zwei Tests, ein Gutfall, ein Schlechtfall 
+- SolnSquareVerifier verwendet den von ZoKrates generierten SquareVerifier und den selbstgeschriebenen ERC271Mintable Contract
+    - übergebe den Verifier als Parameter (im Konstruktor?) dem ERC271Mintable Contract
+        - "Verifier.sol" (bzw. "SquareVerifier.sol")
+        - "CustomERC721Token.sol" (bzw. "ERC721MintableComplete.sol")
+    - "Soln" = "Solution"
+- Oraclize ist eine externe Lib, u.a. für String Konkatenation
+
+- die drei Testdateien sollten schon alle Testrümpfe enthalten. die notwendig sind, um zu bestehen
+    - 6 + 2 + 2 = 10 Tests
+- 

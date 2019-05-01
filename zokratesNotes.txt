@@ -1,9 +1,15 @@
-project home			/c/cygwin/home/Dirk/code/capstone
-zokrates startup		docker run -v /c/cygwin/home/Dirk/code/capstone:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+Windows
+    project home			/c/cygwin/home/Dirk/code/capstone
+    zokrates startup		docker run -v /c/cygwin/home/Dirk/code/capstone:/home/zokrates/code -ti zokrates/zokrates /bin/bash
 
-compile program			/path/to/zokrates compile -i <program_name>.code
-create two keys			/path/to/zokrates setup
-compute witness			/path/to/zokrates compute-witness -a <a> <b> ... <n>
-generate proof			/path/to/zokrates generate-proof
-generate verifier		/path/to/zokrates export-verifier
+Linux
+    project home			/home/dirk/code/blockchain/udacity_blockchain_capstone_project
+    zokrates startup		docker run -v /home/dirk/code/blockchain/udacity_blockchain_capstone_project:/home/zokrates/code -ti zokrates/zokrates /bin/bash
 
+Zokrates
+    compile program			/path/to/zokrates compile -i <program_name>.code
+    create two keys			/path/to/zokrates setup
+    compute witness			/path/to/zokrates compute-witness -a <a> <b> ... <n>
+    generate proof			/path/to/zokrates generate-proof
+    generate verifier		/path/to/zokrates export-verifier
+    
