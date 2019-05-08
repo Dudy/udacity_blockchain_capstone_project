@@ -28,6 +28,10 @@ contract Ownable {
         _;
     }
 
+    function getOwner() public returns(address) {
+        return _owner;
+    }
+
     function transferOwnership(address newOwner) public onlyOwner {
         // TODO add functionality to transfer control of the contract to a newOwner.
         // make sure the new owner is a real address
