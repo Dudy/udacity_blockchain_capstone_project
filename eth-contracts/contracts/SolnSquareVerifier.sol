@@ -30,7 +30,7 @@ contract SolnSquareVerifier is ERC721MintableComplete {
     event SolutionAdded(uint tokenId, address tokenAddress);
 
 // TODO Create a function to add the solutions to the array and emit the event
-    function addSolution(uint tokenId, address tokenAddress) public {
+    function addSolution(uint tokenId, address tokenAddress) internal {
         solution memory s = solution({tokenId: tokenId, tokenAddress: tokenAddress, used: true});
         emit SolutionAdded(tokenId, tokenAddress);
         solutions.push(s);
@@ -44,17 +44,17 @@ contract SolnSquareVerifier is ERC721MintableComplete {
 
 // TODO Create a function to mint new NFT only after the solution has been verified
 //  - make sure the solution is unique (has not been used before)
-    function mint(uint[2] memory a,
-                  uint[2] memory a_p,
-                  uint[2][2] memory b,
-                  uint[2] memory b_p,
-                  uint[2] memory c,
-                  uint[2] memory c_p,
-                  uint[2] memory h,
-                  uint[2] memory k,
-                  uint[2] memory input,
-                  uint tokenId,
-                  address tokenAddress) public uniqueSolution(tokenId, tokenAddress) returns(bool) {
+    function solnSquareMint(uint[2] memory a,
+                            uint[2] memory a_p,
+                            uint[2][2] memory b,
+                            uint[2] memory b_p,
+                            uint[2] memory c,
+                            uint[2] memory c_p,
+                            uint[2] memory h,
+                            uint[2] memory k,
+                            uint[2] memory input,
+                            uint tokenId,
+                            address tokenAddress) public uniqueSolution(tokenId, tokenAddress) returns(bool) {
 //  - make sure you handle metadata as well as tokenSuplly
         require(squareVerifier.verifyTx(a, a_p, b, b_p, c, c_p, h, k, input), "provided proof not valid");
         addSolution(tokenId, tokenAddress);

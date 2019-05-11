@@ -7,6 +7,7 @@ import 'openzeppelin-solidity/contracts/token/ERC721/IERC721Receiver.sol';
 import "./Oraclize.sol";
 
 contract Ownable {
+
     //  TODO's
     //  1) create a private '_owner' variable of type address with a public getter function
     //  2) create an internal constructor that sets the _owner var to the creater of the contract 
@@ -358,10 +359,6 @@ contract ERC721Enumerable is ERC165, ERC721 {
         return _allTokens.length;
     }
 
-    function aaa() public view returns(uint256) {
-        return 5;
-    }
-
     /**
      * @dev Gets the token ID at a given index of all the tokens in this contract
      * Reverts if the index is greater or equal to the total number of tokens
@@ -558,7 +555,6 @@ contract ERC721MintableComplete is ERC721Metadata("DirkPodolakContract", "DP001"
     function mint(address to, uint256 tokenId, string memory tokenURI) public onlyOwner returns(bool) {
         _mint(to, tokenId);
         _setTokenURI(tokenId);
-
         return true;
     }
 }
