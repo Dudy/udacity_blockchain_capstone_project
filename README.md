@@ -98,3 +98,19 @@ Summary
 > Total deployments:   3
 > Final cost:          0.1290841 ETH
 
+# token creation
+
+Minted token. Transaction: 0x576808ba8e08d52eb04f7088a9e997fc328b8c0525ba89814d48a03377d954a8
+Minted token. Transaction: 0xae5ed24558832e4f8493cdcbd5840dcd179003ddc785f1eb5aa965a5878abfe0
+Minted token. Transaction: 0x82772886878521bcb8f1c9461aa59819954780ae23cd479666e836d843c9a8f1
+Minted token. Transaction: 0xc4e33b7eb18138c0177fadd23a74d33f1a801a837c6c2d8b813652c803bf4e42
+Minted token. Transaction: 0x434fbdf8d7b75d297e1fe0bdfe4dc44085741d7d9f995951673318bf67fb1288
+Minted token. Transaction: 0x547b3d1bec7b73bdd4177bc5830126243b26514ad89b286d2d1cbb9715c31690
+Minted token. Transaction: 0x04b3289ba0e77d4d06be9b1c619294cd25244793e2e8a9dea94dc4437404b996
+Minted token. Transaction: 0x03c4e3ef38f81483ddf0ffe99a5f8a137d564479b58bd9c3e8c2a50f7737437e
+Minted token. Transaction: 0xf71b27ab83bb4dc97c835fe1bf1ef2cf860499f55c1b267efc0c00d15e92f073
+Minted token. Transaction: 0x2dbdef0a62d7ae9fc7c75338b903f8d0bfaca6df263ea6abe413eca13862a4fb
+
+
+
+
