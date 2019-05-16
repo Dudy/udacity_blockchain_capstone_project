@@ -37,6 +37,7 @@ Be sure a ganache instance is running (eg. [Ganache-CLI](https://github.com/truf
 
 # Rinkeby Deployment
 
+```
 $ truffle migrate --network rinkeby
 
 [...]
@@ -115,9 +116,11 @@ Summary
 =======
 > Total deployments:   3
 > Final cost:          0.1290841 ETH
+```
 
 # token creation
 
+```
 Minted token. Transaction: 0x576808ba8e08d52eb04f7088a9e997fc328b8c0525ba89814d48a03377d954a8
 Minted token. Transaction: 0xae5ed24558832e4f8493cdcbd5840dcd179003ddc785f1eb5aa965a5878abfe0
 Minted token. Transaction: 0x82772886878521bcb8f1c9461aa59819954780ae23cd479666e836d843c9a8f1
@@ -128,20 +131,26 @@ Minted token. Transaction: 0x04b3289ba0e77d4d06be9b1c619294cd25244793e2e8a9dea94
 Minted token. Transaction: 0x03c4e3ef38f81483ddf0ffe99a5f8a137d564479b58bd9c3e8c2a50f7737437e
 Minted token. Transaction: 0xf71b27ab83bb4dc97c835fe1bf1ef2cf860499f55c1b267efc0c00d15e92f073
 Minted token. Transaction: 0x2dbdef0a62d7ae9fc7c75338b903f8d0bfaca6df263ea6abe413eca13862a4fb
+```
 
 # OpenSea store
 
 ### Contract
 
+```
 https://rinkeby.opensea.io/assets/dirkpodolakcontract
+```
 
 ### Users
 
+```
 https://rinkeby.opensea.io/accounts/0x549503d7d00278cbb3a06d998baDa8B035F491a3
 https://rinkeby.opensea.io/accounts/0xd8aaf7fcac3212c30e2dcfa20289ac583e7bb12f
+```
 
 ### Tokens
 
+```
 https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/0
 https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/1
 https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/2
@@ -152,9 +161,11 @@ https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/6
 https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/7
 https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/8
 https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/9
+```
 
 ### sold
 
+```
 IDs: 0, 4, 6, 7, 8
 Buyer: 0xD8aaf7fcAc3212c30E2DcFA20289Ac583E7bb12F
-
+```
