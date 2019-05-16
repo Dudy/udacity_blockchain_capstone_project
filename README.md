@@ -2,7 +2,25 @@
 
 # Udacity Blockchain Capstone
 
-The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
+This is the [Udacity Blockchain Nanodegree](https://eu.udacity.com/course/blockchain-developer-nanodegree--nd1309) Capstone Project of Dirk Podolak.
+
+The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product.
+
+# Usage
+
+When the repository is cloned, call
+
+`npm install`
+
+Change directory into the "eth-contract", then call
+
+`truffle compile`
+
+`truffle migrate`
+
+`truffle test`
+
+Be sure a ganache instance is running (eg. [Ganache-CLI](https://github.com/trufflesuite/ganache-cli)).
 
 # Project Resources
 
@@ -111,6 +129,32 @@ Minted token. Transaction: 0x03c4e3ef38f81483ddf0ffe99a5f8a137d564479b58bd9c3e8c
 Minted token. Transaction: 0xf71b27ab83bb4dc97c835fe1bf1ef2cf860499f55c1b267efc0c00d15e92f073
 Minted token. Transaction: 0x2dbdef0a62d7ae9fc7c75338b903f8d0bfaca6df263ea6abe413eca13862a4fb
 
+# OpenSea store
 
+### Contract
 
+https://rinkeby.opensea.io/assets/dirkpodolakcontract
+
+### Users
+
+https://rinkeby.opensea.io/accounts/0x549503d7d00278cbb3a06d998baDa8B035F491a3
+https://rinkeby.opensea.io/accounts/0xd8aaf7fcac3212c30e2dcfa20289ac583e7bb12f
+
+### Tokens
+
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/0
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/1
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/2
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/3
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/4
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/5
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/6
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/7
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/8
+https://rinkeby.opensea.io/assets/0x475A6910d069FD2222Bc8C1608cAB17F6DA1b333/9
+
+### sold
+
+IDs: 0, 4, 6, 7, 8
+Buyer: 0xD8aaf7fcAc3212c30E2DcFA20289Ac583E7bb12F
 
